@@ -49,7 +49,7 @@ pipeline {
                 sh "pwd;cd terraform/ ; terraform apply -input=false tfplan"
             }
         }
-        stage('Destory'){
+        stage('Destory') {
             steps {
                 sh "pwd;cd terraform/ ; terraform destory"
             }
