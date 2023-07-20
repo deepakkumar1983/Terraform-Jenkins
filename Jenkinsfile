@@ -53,6 +53,7 @@ pipeline {
             steps {
                 sh "pwd;cd terraform/ ; terraform destory"
             }
+        }    
     }
 
   }
